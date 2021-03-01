@@ -137,7 +137,7 @@ export class HomePage {
 
           this.dadosNigeria = resultado
           this.percorre(this.dadosNigeria)
-          console.log(this.dadosNigeria[0].longitude);
+          //console.log(this.dadosNigeria[0].longitude);
           
           /*quickSortAsync([new Vincenty().getDistance(this.dadosNigeria[0].longitude, this.dadosNigeria[0].latitude),
           this.dadosNigeria[1].longitude, this.dadosNigeria[1].latitude,this.dadosNigeria[2].longitude, this.dadosNigeria[2].latitude, 196.01, 25.1122, 357.5, 198.90, 420.43, 418, 75, 399, 416, 136, 396, 1, 296, 174, 36, 83,
@@ -204,7 +204,7 @@ export class HomePage {
             console.log('err',error)
           })*/
 
-          quickSort(this.dadosP,function(data){
+          /*quickSort(this.dadosP,function(data){
             console.log("quickSort c",data)// output: 2-3-4-27-57-100-343
         }) 
 
